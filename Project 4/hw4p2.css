@@ -1,0 +1,45 @@
+*{
+    margin : 0;
+}
+code {
+    background: #2db34a;
+    border-radius: 6px;
+    color: #fff;
+    padding: 24px 15px;
+    text-align: center;
+  }
+  header,
+  section,
+  aside,
+  footer {
+    margin: 0 1.5% 24px 1.5%;
+  }
+  section {
+  }
+  footer {
+    display: flex ;
+    margin-bottom: 0;
+    justify-content: center;
+  }
+
+  header{
+    display: flex;
+    justify-content: center;
+  }
+
+ section{
+    display: inline-flex;
+    position: relative;
+    left: 34%;
+}
+
+header code{
+    padding-left: 225px;
+    padding-right: 225px;
+}
+
+footer code {
+    padding-left: 225px;
+    padding-right: 225px;
+}
+
